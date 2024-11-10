@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div>
-      <h1>Arweave Code Editor</h1>
+      <h1>AR parma IDE</h1>
       <WalletConnect />
       <CodeEditor code={code} setCode={setCode} />
       <button onClick={saveCodeToArweave}>Save to Arweave</button>

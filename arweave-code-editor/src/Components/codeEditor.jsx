@@ -13,7 +13,7 @@ function CodeEditor({ code, setCode }) {
           padding: '10px',
           borderRadius: '5px',
         }}
-        placeholder="Write your code here..."
+        placeholder="Currently it can compile only javascript code. you can try it......"
       />
     );
   }
